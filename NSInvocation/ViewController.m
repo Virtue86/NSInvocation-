@@ -24,7 +24,6 @@
     /*
      1.常规使用
      */
-//    SEL selector = NSSelectorFromString(@"getSumWithNum1:num2:userName:");
 
 //    NSMethodSignature  *signature = [ViewController instanceMethodSignatureForSelector:selector]; // 获取方法签名
 //
@@ -59,6 +58,8 @@
     /*
     2. 封装使用selector
      */
+//    SEL selector = NSSelectorFromString(@"getSumWithNum1:num2:userName:");
+//
 //    id result1 = [self performSelector:selector andArguments:@[@(3), @(4), @"小红"]];
 //    NSLog(@"result1 = %@", result1);
     
